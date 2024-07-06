@@ -123,3 +123,16 @@
 // console.log(str.slice(-4, -2)); //5 7
 // console.log(str.slice(-5, -1));
 // console.log(str.slice(-5));
+
+// let str = "paragraph";
+// console.log(str.slice(2,4));
+// console.log(str.substring(2,4));
+// console.log(str.slice(4,2));
+// console.log(str.substring(4,2));
+// console.log(str.slice(-4,-2));
+// console.log(str.substring(-4,-2)); //(0,0)
+// console.log(str.substring(-4,2)); //(0,2)
+
+// let str = "paragraph";
+// console.log(str.substr(2,3));
+// console.log(str.substr(-5,3));
