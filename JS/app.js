@@ -29,10 +29,22 @@
 // let public = 5;
 // console.log(public);
 
-function example(){
-    "use strict"
-    y = 10;
-    console.log(y);
-}
+// function example(){
+//     "use strict"
+//     y = 10;
+//     console.log(y);
+// }
 
-example();
+// example();
+
+// let num = 10;
+// num = "Harshit Sharma";
+// console.log(num);
+
+let anotherString = "This is ";
+let str1 = anotherString + 'First String';
+let str2 = anotherString + "Second String";
+let str3 = `${anotherString}Third String`;
+console.log(str1);
+console.log(str2);
+console.log(str3);
