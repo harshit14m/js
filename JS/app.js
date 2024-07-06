@@ -41,10 +41,24 @@
 // num = "Harshit Sharma";
 // console.log(num);
 
-let anotherString = "This is ";
-let str1 = anotherString + 'First String';
-let str2 = anotherString + "Second String";
-let str3 = `${anotherString}Third String`;
-console.log(str1);
-console.log(str2);
-console.log(str3);
+// let anotherString = "This is ";
+// let str1 = anotherString + 'First String';
+// let str2 = anotherString + "Second String";
+// let str3 = `${anotherString}Third String`;
+// console.log(str1);
+// console.log(str2);
+// console.log(str3);
+
+// let str = "Hello\nworld";
+// let str = 'I\'m Harshit';
+// let str = 'I"m Harshit';
+// let str = "I'm Harshit";
+// let str = 'This is backslash \\.';
+// let str = '\tThis is backslash \\.';
+// let str = '\x61';
+// let str = "\u0026";
+// let str = "\u{1F60E}";
+// console.log(str);
+
+let str = "My name is Harshit";
+console.log(str.length);
