@@ -137,6 +137,31 @@
 // console.log(str.substr(2,3));
 // console.log(str.substr(-5,3));
 
-console.log("A".codePointAt(0));
-console.log("&".codePointAt(0));
-console.log(String.fromCodePoint(214));
+// console.log("A".codePointAt(0));
+// console.log("&".codePointAt(0));
+// console.log(String.fromCodePoint(214));
+
+// let nam = "Tony";
+// console.log(nam[0]);
+// console.log(nam[1]);
+// console.log(nam[2]);
+// console.log(nam[3]);
+
+// let nam = "Tony Stark"
+// console.log(nam.length);
+// console.log(nam[nam.length-1])
+
+// let firstName = "Tony";
+// let lastName = "Stark"
+// let fullName = firstName + " " + lastName;
+// console.log(fullName);
+// let fullName = "Harshit Sharma";
+// console.log(fullName.length);
+
+// let firstName = "HarshitS";
+// console.log(firstName[0]);
+// console.log(firstName[firstName.length-1]);
+
+// let str = " ";
+// console.log(typeof(str));
+// console.log(str.length);
