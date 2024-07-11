@@ -293,3 +293,39 @@
 
 // console.log(`Full Name is ${firstName + " " + lastName}`);
 
+// let num = 1123440;
+// if(num%10==0){
+//     console.log("Good")
+// }else{
+//     console.log("bad")
+// }
+
+// let  userName = prompt("enter user name");
+// let age = prompt("enter your age");
+// alert(`${userName} is ${age} year old.`);
+
+// let quater = 5;
+
+// switch(quater){
+//     case 1:
+//         console.log("Jan, Feb, Mar")
+//         break;
+//     case 2:
+//         console.log("Apr, May, Jun")
+//         break;
+//     case 3:
+//         console.log("Jul, Aug, Sep")
+//         break;
+//     case 4:
+//         console.log("Oct, Nov, Dec")
+//         break;
+//     default:
+//         console.log("Wrong input")
+// }
+
+// let str = "apples"
+// if((str[0]=="a" || str[0] == "A") && str.length>5)
+//     console.log("Golden String");
+// else{
+//     console.log("bad string");
+// }
