@@ -1,1 +1,1 @@
-// for practicing JavaScript
+// for practicing JavaScript.
