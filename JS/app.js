@@ -165,3 +165,131 @@
 // let str = " ";
 // console.log(typeof(str));
 // console.log(str.length);
+
+// let age = 16;
+// if(age>18){
+//     console.log("you can vote")
+// }else{
+//     console.log("you cann't vote")
+// }
+
+// let firstName = "Harshit";
+// if(firstName == "Harshit"){
+//     console.log(`Welcome ${firstName} !!`)
+// }
+
+// let trafficLight = "Green";
+
+// if(trafficLight === "Red"){
+//     console.log(`Traffic Light is ${trafficLight}, please STOP`)
+// }
+// if(trafficLight === "Yellow"){
+//     console.log(`Traffic Light is ${trafficLight}, please WAIT`)
+// }
+// if(trafficLight === "Green"){
+//     console.log(`Traffic Light is ${trafficLight}, please GO`)
+// }
+
+
+// let marks = 30;
+// if(marks>80){
+//     console.log("A+")
+// }else if(marks>60 && marks<80){
+//     console.log("A")
+// }else if(marks>33 && marks<60){
+//     console.log("B")
+// }else if(marks<33){
+//     console.log("F")
+// }
+
+// let popcornSize = 's';
+// if(popcornSize == 'xl'){
+//     console.log("price is 250")
+// }else if(popcornSize == "l"){
+//     console.log("price is 200")
+// }else if(popcornSize == "m"){
+//     console.log("price is 100")
+// }else if(popcornSize == "s"){
+//     console.log("price is 50")
+// }else{
+//     console.log('wrong size')
+// }
+
+// let marks = 32;
+// if(marks >= 33){
+//     console.log("pass")
+//     if(marks >= 80){
+//         console.log("A++")
+//     }else{
+//         console.log("A")
+//     }
+// }else{
+//     console.log("fail")
+// }
+
+// let str = "ample";
+
+// if(str[0]==='a' && str.length>3){
+//     console.log("good string")
+// }else{
+//     console.log("bad string")
+// }
+
+// let nu = 0;
+// if(nu){
+//     console.log("number is not zero")
+// }else{
+//     console.log("number is zero")
+// }
+
+
+// let color = "black"
+
+// switch (color) {
+//     case "red":
+//         console.log("stop")
+//         break;
+//     case "yellow":
+//         console.log("wait")
+//         break;
+//     case 'green':
+//         console.log("go")
+//         break;
+//     default:
+//         console.log("broken traffic light")
+// }
+
+
+// let numDay = 1;
+
+// switch(numDay){
+//     case 1:
+//         console.log("Monday")
+//         break;
+//     case 2:
+//         console.log("Tuesday")
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thrusday")
+//         break;
+//     case 5:
+//         console.log("Friday")
+//         break;
+//     case 6:
+//         console.log("Saturday")
+//         break;
+//     case 7:
+//         console.log("Sunday")
+//         break;
+//     default:
+//         console.log("Wrong numDay")
+// }
+
+// let firstName =prompt("Enter your First Name");
+// let lastName =prompt("Enter your Last Name");
+
+// console.log(`Full Name is ${firstName + " " + lastName}`);
+
