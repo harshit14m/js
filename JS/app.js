@@ -329,3 +329,73 @@
 // else{
 //     console.log("bad string");
 // }
+
+// let num1 = 5;
+// let num2 = 18;
+// let num3 = 13;
+
+// if(num1 > num2){
+//     if(num1 > num3){
+//         console.log("num1 is largest");
+//     }else{
+//         console.log("num3 is largest");
+//     }
+// }else {
+//     if(num2 > num3){
+//         console.log("num2 is largest");
+//     }else{
+//         console.log("num3 is largest");
+//     }
+// }
+    
+// let a = 323;
+// let b = 47852;
+// if(a % 10 == 2 && b % 10 == 2){
+//     console.log("same last digit")
+// }else{
+//     console.log("different last digit")
+// }
+// let a = 3232342;
+// let b = 4785232;
+// if((a % 10) == (b % 10)){
+//     console.log("same last digit")
+// }else{
+//     console.log("different last digit")
+// }
+
+
+// let msg = "     HELLO     "
+// let newMsg = (msg.trim().toLocaleLowerCase());
+// console.log(newMsg);
+
+
+// let str = "ILoveCoding";
+// console.log(str.slice(1,5));
+// console.log(str.slice(5));
+// console.log(str.slice(0,1));
+
+// let str1 = "Hello";
+// console.log(str1.slice(0, str1.length-1))
+// console.log(str1.slice(-2));
+// console.log(str1.slice());
+
+// let str = "ILoveCoding";
+// console.log(str.replace("Love", "Do"));
+// console.log(str.replace("o", "x"));
+
+// let str = "Mango";
+// console.log(str.repeat(4));
+
+// let msg = "     help!!!   ";
+// let newMsg = msg.trim().toUpperCase();
+// console.log(newMsg);
+
+// let nam = "ApnaCollege";
+// console.log(nam.slice(4,9));
+// console.log(nam.indexOf("na"));
+// console.log(nam.replace("Apna", "Our"));
+
+// let newNam = nam.slice(4).replace("l", "t");
+// console.log(newNam.replace("l", "t"));
+
+// console.log(nam.slice(4).replace('l', 't'). replace('l', 't'));
