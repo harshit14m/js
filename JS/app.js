@@ -399,3 +399,297 @@
 // console.log(newNam.replace("l", "t"));
 
 // console.log(nam.slice(4).replace('l', 't'). replace('l', 't'));
+
+// let light = prompt("enter traffic light");
+
+// if (light == "red") {
+//     console.log("stop")
+// }
+// if(light == "yellow"){
+//     console.log("wait");
+// }
+// if(light == "green"){
+//     console.log("go");
+// }
+
+// let light = prompt("enter traffic light");
+
+// if(light === "red"){
+//     console.log("stop");
+// }else if(light === "yellow"){
+//     console.log("wait");
+// }else if(light === "green"){
+//     console.log("go")
+// }else{
+//     console.log("broken traffic light");
+// }
+
+
+// let marks = prompt("enter marks");
+
+// if(marks >= 80){
+//     console.log("A+ grade");
+// }else if(marks >= 60 && marks <80){
+//     console.log("A grade")
+// }else if(marks >= 33 && marks < 60){
+//     console.log("B grade")
+// }else{
+//     console.log("F grade");
+// }
+
+// let size = prompt("Enter popCorn price");
+// if(size == 'xl'){
+//     console.log(250);
+// }else if( size == "l"){
+//     console.log(200);
+// }else if(size == "m"){
+//     console.log(100);
+// }else if(size == "s"){
+//     console.log(50);
+// }else {
+//     console.log("wrong choice");
+// }
+
+// let marks = prompt("enter your marks");
+// if(marks >= 33){
+//     console.log("pass")
+//     if(marks>=80){
+//         console.log("Outstanding");
+//     }else{
+//         console.log("Grade: A");
+//     }
+   
+// }else{
+//     console.log("fail");
+// }
+
+// let lightCol = prompt("enter color of traffic light");
+
+// switch (lightCol) {
+//     case "red":
+//         console.log("stop");
+//         break;
+//     case "yellow":
+//         console.log("wait");
+//         break;
+//     case "green":
+//         console.log("go");
+//         break;
+//     default:
+//         console.log("broken light")
+//         break;
+// }
+
+// let numDay = prompt("enter number of day");
+// Number(numDay);
+
+// let numDay = 3;
+
+// switch(numDay){
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2: 
+//         console.log("Tuesday");
+//         break;
+//     case 3: 
+//         console.log("Wednesday");
+//         break;
+//     case 4: 
+//         console.log("Thrusday");
+//         break;
+//     case 5: 
+//         console.log("Friday");
+//         break;
+//     case 6: 
+//         console.log("Saturday");
+//         break;
+//     case 7:
+//         console.log("Sunday");
+//         break;
+//     default:
+//         console.log("wrong input");
+//         break;
+// }
+
+// let numb = prompt("enter your number");
+// if(numb%10 == 0){
+//     console.log("good");
+// }else{
+//     console.log("bad");
+// }
+
+// let userName = "Harshit";
+// let age = 12;
+// console.log(`${userName} is ${age} year old kid`)
+
+// let num = prompt("enter number");
+
+// if(num % 10 == 0){
+//     console.log("good")
+// }else{
+//     console.log("bad")
+// }
+
+
+// let userName = prompt("enter your name");
+// let userAge = prompt("enter your age");
+
+// alert(`${userName} is ${userAge} year old.`);
+
+// let quater = prompt("enter quater");
+
+// switch (parseInt(quater)){
+//     case 1:
+//         console.log("January, February, March");
+//         break;
+//     case 2:
+//         console.log("April,May,June");
+//         break;
+//     case 3:
+//         console.log("July,August,September");
+//         break;
+//     case 4:
+//         console.log("October,November,December");
+//         break;
+//     default:
+//         console.log("wrong input");
+// }
+
+// let myStr = prompt("enter your string");
+
+// if((myStr[0] == "A" || myStr[0] == "a") && myStr.length > 5){
+//     console.log("good");
+// }else{
+//     console.log("bad");
+// }
+
+// let a = 2;
+// let b = 18;
+// let c = 213;
+
+// if(a > b && a > c){
+//     console.log("a");
+// }else if(b > a && b > c){
+//     console.log("b");
+// }else if(c > b && c > a){
+//     console.log("c");
+// }else{
+//     console.log("wrong input");
+// }
+
+// let a = 5;
+// let b = 18;
+// let c = 13;
+
+// if (a > b) {
+//     if (a > c) {
+//         console.log(a, "is largest");
+//     } else {
+//         console.log(c, "is largest");
+//     }
+// } else {
+//     if (b > c) {
+//         console.log(b, "is largest");
+//     } else {
+//         console.log(c, "is largest");
+//     }
+// }
+
+
+// let num1 = 134;
+// let num2 =5664;
+
+// if(num1%10 == num2%10){
+//     console.log("good");
+// }else{
+//     console.log("bad");
+// }
+
+// let name = "Harshit";
+// console.log(name.indexOf("h"));
+// console.log(name.indexOf("H"));
+// console.log(name.indexOf("z"));
+
+// let msg = "     Hello        ";
+// console.log(msg.trim().toUpperCase());
+// console.log(msg.trim().slice(-3));
+
+// let mesg = "iLoveCoding";
+// console.log(mesg.replace("Love", "Do"));
+// console.log(mesg);
+
+// let mess = "Harshit Sharma ";
+// console.log(mess.repeat(5));
+
+// let messa = "     Help!   ";
+// console.log(messa.trim().toUpperCase());
+
+// let name1 = "ApnaCollege";
+// console.log(name1.slice(4, 9));              // Colle
+// console.log(name1.indexOf("na"));            //2
+// console.log(name1.replace("Apna", "Our"));   //OurCollege
+// console.log(name1.repeat(3));                // ApnaCollegeApnaCollegeApnaCollege
+// console.log(name1.replace("apna", "Our"));   // Original String
+
+// let name2 = "Harshit Shamra";
+// console.log(name2.replace("Harshit", "Goldy"));
+
+// let name1 = "ApnaCollege";
+// let result  = name1.slice(4).replace("l", "r").replace("l", "r");
+// console.log(result);
+
+// let students = ["aman", "shradha", "rajat", "shyam"];
+// console.log(students);
+// students[1] = "Harshit Sharma"
+// console.log(students);
+// students[4] = "rohit";
+// console.log(students);
+
+// students[10] = "virat";
+// console.log(students);
+// console.log(students[1]);
+// console.log(students[1][4]);
+// console.log(students.length);
+// console.log(students[1].length);
+
+// let emptyArr = [];
+// console.log(emptyArr.length);
+
+// let start = ["january", "july", "march", "august"];
+// start[0] = "july";
+// start[1] = "june";
+// start[1] = "june";
+// console.log(start);
+
+// let cars = ["audi", "bmw", "xuv", "maruti"];
+// cars.push("toyota");
+// console.log(cars);
+// cars.push("ferrari", "indica");
+// console.log(cars);
+// console.log(cars.pop());
+// console.log(cars);
+// cars.pop();
+// console.log(cars);
+// cars.pop();
+// console.log(cars);
+// cars.unshift("toyota");
+// console.log(cars);
+// cars.shift();
+// console.log(cars);
+// cars.unshift("toyota", "ferrari");
+// console.log(cars);
+
+// let months = ["january", "july", "march", "august"];
+// months.shift();
+// months.shift();
+// // months.unshift("june");
+// // months.unshift("july")
+// months.unshift("july", "june");
+// console.log(months);
+
+
+let primary = ["red", "yellow", "blue"];
+console.log(primary.indexOf("yellow"));
+console.log(primary.indexOf("Yellow"));
+console.log(primary.findIndex("yellow"));
