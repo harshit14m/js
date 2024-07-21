@@ -689,7 +689,181 @@
 // console.log(months);
 
 
-let primary = ["red", "yellow", "blue"];
-console.log(primary.indexOf("yellow"));
-console.log(primary.indexOf("Yellow"));
-console.log(primary.findIndex("yellow"));
+// let primary = ["red", "yellow", "blue"];
+// console.log(primary.indexOf("yellow"));
+// console.log(primary.indexOf("Yellow"));
+// console.log(primary.findIndex("yellow"));
+// console.log(primary.includes("red"));
+// console.log(primary.includes("Red"));
+// console.log(primary.includes("green"));
+
+// let primary = ["red", "yellow", "blue"];
+// let secondary = ["orange", "green", "violet"];
+// let reslt = primary.concat(secondary)
+// console.log(reslt);
+// console.log(reslt.reverse());
+// console.log(secondary.concat(primary));
+
+let colors = ["red", "yellow", "blue", "orange", "green", "violet"];
+// console.log(colors.slice());
+// console.log(colors.slice(2));
+// console.log(colors.slice(2, 3));
+// console.log(colors.slice(-3));
+
+// console.log(colors);                 // "red", "yellow", "blue", "orange", "green", "violet"
+// console.log(colors.splice(4));       // "green", "violet"
+// console.log(colors);                 // "red", "yellow", "blue", "orange"
+// console.log(colors.splice(0,1));     // "red"
+// console.log(colors);                 // "yellow", "blue", "orange"
+// console.log(colors.splice(0, 1, "black", "grey")); // "yellow"
+// console.log(colors);                     // "black", "grey", "blue", "orange"
+
+// let cars = ["bmw", "ferrari"];
+// console.log(cars.splice(0,0,"maruti", "toyota")); // []
+// console.log(cars);                                // "maruti", "toyota", "bmw", "ferrari"
+// console.log(cars.splice(1,0,"tata"));   // []
+// console.log(cars);                      // "maruti", "tata", "toyota", "bmw", "ferrari"
+// console.log(cars.splice(1,1,"fiat")); // tata
+// console.log(cars);                    // "maruti", "fiat", "toyota", "bmw", "ferrari"
+
+// let start = ["january", "july", "march", "august"];
+// // console.log(start.splice(0,1)) // ["january"]
+// // console.log(start); // ["july", "march", "august"]
+// // console.log(start.splice(1,0,"June")); // []
+// // console.log(start); //["july", "June", "march", "august"]
+// console.log((start.splice(0,2,"July", "june")));
+// console.log(start);
+
+// let lang = ['c', 'c++', "html", "javascript", "python", "java", 'c#', "sql"];
+// // let newLang = lang.reverse();
+// // console.log(newLang);
+// // console.log(newLang.indexOf("javascript"));
+// console.log(lang.reverse().indexOf("javascript"));
+
+// let arr = ['a', 'b', 'c'];
+// let arrCopy = arr;
+// console.log(arrCopy);
+// console.log(arrCopy.push('d'));
+// console.log(arr);
+// arr.pop('d');
+// console.log(arr);
+// arr.pop('b');
+// console.log(arr);
+// console.log(arrCopy)
+
+// let arr = [[1,2], [3,4], [5,6], [7,8]];
+// console.log(arr);
+// console.log(arr.length);
+// console.log(arr[1][0]);
+// arr.push([11,12, 13]);
+// console.log(arr.length);
+// console.log(arr[4]);
+// console.log(arr[4][2])
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+
+// let tic = [["x",null, "o"], [null, "x", null], ["o", null, "x"]]
+// console.log(tic);
+
+// tic[0][1]="o";
+// console.log(tic);
+
+// let arr = [7, 9, 0, -2, 3]; // 7,9,0
+// console.log(arr);
+// let newArr = [];
+// for(let i = 0; i<arr.length; i++){
+//     if(arr[i]>=0){
+//         newArr[i] = arr[i];
+//     }
+// }
+// console.log(newArr);
+
+// newArr.splice(3,1);
+// console.log(newArr);
+// let newArr = arr.slice(0,3);
+// console.log(newArr);
+
+// let arr = [7, 9, 0, -2];
+// let res = arr.slice(-3);
+// console.log(res);
+
+// let str = prompt("please enter string");
+
+// if(str.length == 0){
+//     console.log("Blank string");
+// }else{
+//     console.log("String", str);
+// }
+
+// let str = "ApNACoLlEge"
+// let idx = 3;
+// if(str[idx] == str[idx].toLowerCase()){
+//     console.log("character is lower case");
+// }else{
+//     console.log("character is upper case");
+// }
+
+// let arr = ["hello", 'a', 23, 64, 99, -6];
+// let item = 641;
+// if(arr.indexOf(item) != -1){
+//     console.log("exist");
+// }else{
+//     console.log("not exist");
+// }
+
+// let arr = [7, 9, 0, -2];
+// let n = 3;
+// let newArr = arr.slice(0,n);
+// console.log(newArr);
+
+// let newArr = arr.slice(-3)
+// let n = 3;
+// let newArr = arr.slice(arr.length-n)
+// console.log(newArr);
+
+// let str = prompt("enter your string");
+
+// if(str.length == 0){
+//     console.log("blank");
+// }else{
+//     console.log("not blank")
+// }
+
+// let str = "hArShiT ShaRMa";
+// let n = 3;
+// if(str[n]==str[n].toLowerCase()){
+//     console.log("lower");
+// }else{
+//     console.log("Upper")
+// }
+
+// let arr = ["hello", 'a', 64, 99, -2, 0];
+// let item = 64;
+
+// if(arr.indexOf(item) != -1){
+//     console.log("present");
+// }else{
+//     console.log("absent");
+// }
+
+// for (let i =1; i<=10; i++){
+//     console.log(i);
+// }
+
+// for(let j = 10; j>=1; j--){
+//     console.log(j)
+// }
+
+// for(let i = 0; i<=15; i+=2){
+//     console.log(i);
+// }
+// for(let i = 15; i>=1; i-=2){
+//     console.log(i);
+// }
+
+// let n = prompt("table of: ");
+// n = parseInt(n);
+// for(let i = 1; i<=10; i++){
+//     console.log(`${n} X ${i} = ${n*i}`);
+// }
